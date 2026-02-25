@@ -1,2 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshanshi Bhardwaj | FSSAI & Compliance Specialist</title>
+    <style>
+        :root {
+            --primary: #2c3e50; /* Government Blue */
+            --accent: #27ae60; /* Safety/Success Green */
+            --light: #ecf0f1;
+            --dark: #1a252f;
+        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; line-height: 1.6; color: #333; }
+        
+        /* Header */
+        header { background: var(--primary); color: white; padding: 20px 0; text-align: center; }
+        .container { width: 90%; max-width: 1100px; margin: auto; padding: 0 20px; }
+        
+        /* Hero Section */
+        .hero { background: linear-gradient(rgba(44, 62, 80, 0.9), rgba(44, 62, 80, 0.9)), url('https://source.unsplash.com/1600x900/?office,meeting'); background-size: cover; color: white; padding: 100px 0; text-align: center; }
+        .hero h1 { font-size: 3rem; margin-bottom: 10px; }
+        .hero p { font-size: 1.2rem; opacity: 0.9; }
+        
+        /* Sections */
+        section { padding: 60px 0; }
+        h2 { text-align: center; color: var(--primary); margin-bottom: 40px; font-size: 2rem; text-transform: uppercase; letter-spacing: 1px; }
+        
+        /* About */
+        .about-content { display: flex; flex-wrap: wrap; gap: 30px; align-items: center; }
+        .about-text { flex: 2; }
+        .about-stats { flex: 1; background: var(--light); padding: 20px; border-radius: 8px; }
+        
+        /* Services/Packages */
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .service-card { background: white; border: 1px solid #ddd; border-radius: 8px; padding: 30px; text-align: center; transition: 0.3s; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .service-card:hover { transform: translateY(-5px); border-color: var(--accent); }
+        .price { font-size: 1.5rem; color: var(--accent); font-weight: bold; margin: 15px 0; }
+        
+        /* Portfolio / Audits */
+        .audit-gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .audit-item { background: var(--light); padding: 20px; border-left: 5px solid var(--accent); }
+        
+        /* Clients */
+        .client-logos { display: flex; justify-content: center; flex-wrap: wrap; gap: 40px; margin-top: 30px; }
+        .logo-placeholder { width: 150px; height: 80px; background: #ddd; display: flex; align-items: center; justify-content: center; color: #666; font-weight: bold; border-radius: 4px; }
+        
+        /* Testimonials */
+        .testimonial { background: var(--light); padding: 30px; margin-bottom: 20px; border-radius: 8px; position: relative; }
+        .testimonial::before { content: "“"; font-size: 50px; color: var(--accent); position: absolute; top: -10px; left: 20px; }
+        
+        /* Contact */
+        footer { background: var(--dark); color: white; padding: 40px 0; text-align: center; }
+        .btn { display: inline-block; background: var(--accent); color: white; padding: 10px 25px; text-decoration: none; border-radius: 5px; margin-top: 20px; }
+        
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+            .about-content { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Akshanshi Bhardwaj</h1>
+            <p>FSSAI Specialist | Operations Strategy | Government Compliance</p>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <div class="hero">
+        <div class="container">
+            <h1>Ensuring Safety & Operational Excellence</h1>
+            <p>Expert in FSSAI Regulations, Facility Management, and Strategic Business Continuity.</p>
+            <a href="#contact" class="btn">Contact for Consultation</a>
+        </div>
+    </div>
+
+    <!-- About Me -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a <strong>Result-Oriented Operations Leader</strong> with over 8 years of experience managing high-value accounts and ensuring regulatory compliance. With an <strong>M.Sc. in Biotechnology</strong>, I bring a scientific approach to food safety and facility hygiene.</p>
+                    <p>I have successfully managed operations generating <strong>4 Crore monthly revenue</strong> while maintaining 100% SLA compliance. My expertise lies in navigating complex government regulations (FSSAI) and implementing sustainable business strategies.</p>
+                </div>
+                <div class="about-stats">
+                    <h3>Key Highlights</h3>
+                    <ul>
+                        <li><strong>8+ Years</strong> Experience</li>
+                        <li><strong>4Cr</strong> Monthly Revenue Managed</li>
+                        <li><strong>100%</strong> SLA Compliance</li>
+                        <li><strong>100%</strong> Audit Pass Rate</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Packages -->
+    <section id="services" style="background: #f9f9f9;">
+        <div class="container">
+            <h2>Service Packages</h2>
+            <div class="services-grid">
+                <!-- Package 1 -->
+                <div class="service-card">
+                    <h3>FSSAI Compliance Audit</h3>
+                    <p>Complete assessment of food safety standards as per FSSAI Act, Rules & Regulations.</p>
+                    <div class="price">Custom Quote</div>
+                    <ul style="text-align: left; padding-left: 20px;">
+                        <li>License & Registration Review</li>
+                        <li>Labeling Compliance</li>
+                        <li>Lab Testing Protocols</li>
+                    </ul>
+                </div>
+                <!-- Package 2 -->
+                <div class="service-card">
+                    <h3>Facility Management Strategy</h3>
+                    <p>End-to-end operations management for corporate and industrial facilities.</p>
+                    <div class="price">₹75,000 / Month</div>
+                    <ul style="text-align: left; padding-left: 20px;">
+                        <li>Hygiene & Sanitation (Ecolab protocols)</li>
+                        <li>Waste Management Optimization</li>
+                        <li>Staff Training & Audits</li>
+                    </ul>
+                </div>
+                <!-- Package 3 -->
+                <div class="service-card">
+                    <h3>Government Consulting & Training</h3>
+                    <p>Specialized training for staff on EatRightIndia initiatives and safety protocols.</p>
+                    <div class="price">₹25,000 / Session</div>
+                    <ul style="text-align: left; padding-left: 20px;">
+                        <li>COVID-19 Response Planning</li>
+                        <li>Risk Mitigation (BCP)</li>
+                        <li>Stakeholder Management</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio / Audits -->
+    <section id="portfolio">
+        <div class="container">
+            <h2>Government Audits & Certifications</h2>
+            <p style="text-align: center;">Specialized execution of government-aligned health and safety initiatives.</p>
+            <div class="audit-gallery">
+                <div class="audit-item">
+                    <h4>EatRight Campus</h4>
+                    <p>Auditing and compliance for educational institutions to ensure student food safety.</p>
+                    <small><a href="https://eatrightindia.gov.in/EatRightCampus/home" target="_blank">View Project</a></small>
+                </div>
+                <div class="audit-item">
+                    <h4>EatRight School</h4>
+                    <p>Implementing food safety standards in school canteens and kitchens.</p>
+                    <small><a href="https://eatrightindia.gov.in/eatrightschool/" target="_blank">View Project</a></small>
+                </div>
+                <div class="audit-item">
+                    <h4>EatRight Station</h4>
+                    <p>Railway station food safety compliance and hygiene management.</p>
+                    <small><a href="https://eatrightindia.gov.in/eatrightstation/login.php" target="_blank">View Project</a></small>
+                </div>
+                <div class="audit-item">
+                    <h4>Fruits & Vegetables Market</h4>
+                    <p>Safety protocols for wholesale and retail produce markets.</p>
+                    <small><a href="https://eatrightindia.gov.in/fruitsandvegetablesmarket/" target="_blank">View Project</a></small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Logos & Testimonials -->
+    <section id="clients" style="background: #f9f9f9;">
+        <div class="container">
+            <h2>Trusted By Industry Leaders</h2>
+            <div class="client-logos">
+                <!-- Replace text with actual logos later -->
+                <div class="logo-placeholder">WIPRO</div>
+                <div class="logo-placeholder">SODEXO</div>
+                <div class="logo-placeholder">BUREAU VERITAS</div>
+                <div class="logo-placeholder">ECOLAB</div>
+            </div>
+
+            <div style="margin-top: 50px;">
+                <h2>Client Testimonials</h2>
+                <div class="testimonial">
+                    <p>"Akshanshi's expertise in FSSAI compliance transformed our facility operations. Her attention to detail during the Bureau Veritas audit was instrumental in us achieving a 100% score."</p>
+                    <p><strong>- Facility Manager, Wipro FMG</strong></p>
+                </div>
+                <div class="testimonial">
+                    <p>"Her strategic approach to business continuity planning during the pandemic was exceptional. She coordinated vaccination drives and ensured zero downtime for our operations."</p>
+                    <p><strong>- Operations Director, Hyper Agro FM</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <footer id="contact">
+        <div class="container">
+            <h2>Let's Work Together</h2>
+            <p>Expert FSSAI Consulting and Operations Management.</p>
+            <p><strong>Phone:</strong> +91 9981955074</p>
+            <p><strong>Email:</strong> sharmaakshanshi2015@gmail.com</p>
+            <p><strong>Location:</strong> Pune, Maharashtra</p>
+            <br>
+            <p>&copy; 2024 Akshanshi Bhardwaj. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
 # my-portfolio
 Ensuring Safety &amp; Operational Excellence  Expert in FSSAI Regulations, Facility Management, and Strategic Business Continuity.
